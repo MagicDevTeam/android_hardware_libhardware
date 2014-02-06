@@ -104,12 +104,6 @@ typedef struct {
 
     /** Suspends Stream only in A2DP SINK */
     void (*suspend_sink)( void );
-
-    /** Resumes Stream only in A2DP SINK */
-    void (*resume_sink)( void );
-
-    /** Send audio focus status to bluedroid*/
-    void (*audio_focus_status)( int is_enable );
 } btav_interface_t;
 
 __END_DECLS
